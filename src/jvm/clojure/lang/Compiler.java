@@ -139,6 +139,222 @@ _AMP_, null
 
 private static final int MAX_POSITIONAL_ARITY = 20;
 private static final Type OBJECT_TYPE;
+private static final int MAX_POSITIONAL_ARITY = 20;
+private static final int MAX_POSITIONAL_ARITY = 20;
+private static final int MAX_POSITIONAL_ARITY = 20;
+private static final int MAX_POSITIONAL_ARITY = 20;
+private static final int MAX_POSITIONAL_ARITY = 20;
+private static final int MAX_POSITIONAL_ARITY = 20;
+private static final int MAX_POSITIONAL_ARITY = 20;
+private static final Type OBJECT_TYPE;
+private static final Type KEYWORD_TYPE = Type.getType(Keyword.class);
+private static final Type VAR_TYPE = Type.getType(Var.class);
+private static final Type SYMBOL_TYPE = Type.getType(Symbol.class);
+//private static final Type NUM_TYPE = Type.getType(Num.class);
+private static final Type IFN_TYPE = Type.getType(IFn.class);
+private static final Type AFUNCTION_TYPE = Type.getType(AFunction.class);
+private static final Type RT_TYPE = Type.getType(RT.class);
+private static final Type NUMBERS_TYPE = Type.getType(Numbers.class);
+final static Type CLASS_TYPE = Type.getType(Class.class);
+final static Type NS_TYPE = Type.getType(Namespace.class);
+final static Type UTIL_TYPE = Type.getType(Util.class);
+final static Type REFLECTOR_TYPE = Type.getType(Reflector.class);
+final static Type THROWABLE_TYPE = Type.getType(Throwable.class);
+final static Type BOOLEAN_OBJECT_TYPE = Type.getType(Boolean.class);
+final static Type IPERSISTENTMAP_TYPE = Type.getType(IPersistentMap.class);
+final static Type IOBJ_TYPE = Type.getType(IObj.class);
+final static Type TUPLE_TYPE = Type.getType(Tuple.class);
+final static Method createTupleMethods[] = {Method.getMethod("clojure.lang.IPersistentVector create()"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object,Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object,Object,Object,Object)")
+};
+private static final Type OBJECT_TYPE;
+private static final Type KEYWORD_TYPE = Type.getType(Keyword.class);
+private static final Type VAR_TYPE = Type.getType(Var.class);
+private static final Type SYMBOL_TYPE = Type.getType(Symbol.class);
+//private static final Type NUM_TYPE = Type.getType(Num.class);
+private static final Type IFN_TYPE = Type.getType(IFn.class);
+private static final Type AFUNCTION_TYPE = Type.getType(AFunction.class);
+private static final Type RT_TYPE = Type.getType(RT.class);
+private static final Type NUMBERS_TYPE = Type.getType(Numbers.class);
+final static Type CLASS_TYPE = Type.getType(Class.class);
+final static Type NS_TYPE = Type.getType(Namespace.class);
+final static Type UTIL_TYPE = Type.getType(Util.class);
+final static Type REFLECTOR_TYPE = Type.getType(Reflector.class);
+final static Type THROWABLE_TYPE = Type.getType(Throwable.class);
+final static Type BOOLEAN_OBJECT_TYPE = Type.getType(Boolean.class);
+final static Type IPERSISTENTMAP_TYPE = Type.getType(IPersistentMap.class);
+final static Type IOBJ_TYPE = Type.getType(IObj.class);
+final static Type TUPLE_TYPE = Type.getType(Tuple.class);
+final static Method createTupleMethods[] = {Method.getMethod("clojure.lang.IPersistentVector create()"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object,Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object,Object,Object,Object)")
+};
+private static final Type OBJECT_TYPE;
+private static final Type KEYWORD_TYPE = Type.getType(Keyword.class);
+private static final Type VAR_TYPE = Type.getType(Var.class);
+private static final Type SYMBOL_TYPE = Type.getType(Symbol.class);
+//private static final Type NUM_TYPE = Type.getType(Num.class);
+private static final Type IFN_TYPE = Type.getType(IFn.class);
+private static final Type AFUNCTION_TYPE = Type.getType(AFunction.class);
+private static final Type RT_TYPE = Type.getType(RT.class);
+private static final Type NUMBERS_TYPE = Type.getType(Numbers.class);
+final static Type CLASS_TYPE = Type.getType(Class.class);
+final static Type NS_TYPE = Type.getType(Namespace.class);
+final static Type UTIL_TYPE = Type.getType(Util.class);
+final static Type REFLECTOR_TYPE = Type.getType(Reflector.class);
+final static Type THROWABLE_TYPE = Type.getType(Throwable.class);
+final static Type BOOLEAN_OBJECT_TYPE = Type.getType(Boolean.class);
+final static Type IPERSISTENTMAP_TYPE = Type.getType(IPersistentMap.class);
+final static Type IOBJ_TYPE = Type.getType(IObj.class);
+final static Type TUPLE_TYPE = Type.getType(Tuple.class);
+final static Method createTupleMethods[] = {Method.getMethod("clojure.lang.IPersistentVector create()"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object,Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object,Object,Object,Object)")
+};
+private static final Type OBJECT_TYPE;
+private static final Type KEYWORD_TYPE = Type.getType(Keyword.class);
+private static final Type VAR_TYPE = Type.getType(Var.class);
+private static final Type SYMBOL_TYPE = Type.getType(Symbol.class);
+//private static final Type NUM_TYPE = Type.getType(Num.class);
+private static final Type IFN_TYPE = Type.getType(IFn.class);
+private static final Type AFUNCTION_TYPE = Type.getType(AFunction.class);
+private static final Type RT_TYPE = Type.getType(RT.class);
+private static final Type NUMBERS_TYPE = Type.getType(Numbers.class);
+final static Type CLASS_TYPE = Type.getType(Class.class);
+final static Type NS_TYPE = Type.getType(Namespace.class);
+final static Type UTIL_TYPE = Type.getType(Util.class);
+final static Type REFLECTOR_TYPE = Type.getType(Reflector.class);
+final static Type THROWABLE_TYPE = Type.getType(Throwable.class);
+final static Type BOOLEAN_OBJECT_TYPE = Type.getType(Boolean.class);
+final static Type IPERSISTENTMAP_TYPE = Type.getType(IPersistentMap.class);
+final static Type IOBJ_TYPE = Type.getType(IObj.class);
+final static Type TUPLE_TYPE = Type.getType(Tuple.class);
+final static Method createTupleMethods[] = {Method.getMethod("clojure.lang.IPersistentVector create()"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object,Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object,Object,Object,Object)")
+};
+private static final Type OBJECT_TYPE;
+private static final Type KEYWORD_TYPE = Type.getType(Keyword.class);
+private static final Type VAR_TYPE = Type.getType(Var.class);
+private static final Type SYMBOL_TYPE = Type.getType(Symbol.class);
+//private static final Type NUM_TYPE = Type.getType(Num.class);
+private static final Type IFN_TYPE = Type.getType(IFn.class);
+private static final Type AFUNCTION_TYPE = Type.getType(AFunction.class);
+private static final Type RT_TYPE = Type.getType(RT.class);
+private static final Type NUMBERS_TYPE = Type.getType(Numbers.class);
+final static Type CLASS_TYPE = Type.getType(Class.class);
+final static Type NS_TYPE = Type.getType(Namespace.class);
+final static Type UTIL_TYPE = Type.getType(Util.class);
+final static Type REFLECTOR_TYPE = Type.getType(Reflector.class);
+final static Type THROWABLE_TYPE = Type.getType(Throwable.class);
+final static Type BOOLEAN_OBJECT_TYPE = Type.getType(Boolean.class);
+final static Type IPERSISTENTMAP_TYPE = Type.getType(IPersistentMap.class);
+final static Type IOBJ_TYPE = Type.getType(IObj.class);
+final static Type TUPLE_TYPE = Type.getType(Tuple.class);
+final static Method createTupleMethods[] = {Method.getMethod("clojure.lang.IPersistentVector create()"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object,Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object,Object,Object,Object)")
+};
+private static final Type OBJECT_TYPE;
+private static final Type KEYWORD_TYPE = Type.getType(Keyword.class);
+private static final Type VAR_TYPE = Type.getType(Var.class);
+private static final Type SYMBOL_TYPE = Type.getType(Symbol.class);
+//private static final Type NUM_TYPE = Type.getType(Num.class);
+private static final Type IFN_TYPE = Type.getType(IFn.class);
+private static final Type AFUNCTION_TYPE = Type.getType(AFunction.class);
+private static final Type RT_TYPE = Type.getType(RT.class);
+private static final Type NUMBERS_TYPE = Type.getType(Numbers.class);
+final static Type CLASS_TYPE = Type.getType(Class.class);
+final static Type NS_TYPE = Type.getType(Namespace.class);
+final static Type UTIL_TYPE = Type.getType(Util.class);
+final static Type REFLECTOR_TYPE = Type.getType(Reflector.class);
+final static Type THROWABLE_TYPE = Type.getType(Throwable.class);
+final static Type BOOLEAN_OBJECT_TYPE = Type.getType(Boolean.class);
+final static Type IPERSISTENTMAP_TYPE = Type.getType(IPersistentMap.class);
+final static Type IOBJ_TYPE = Type.getType(IObj.class);
+final static Type TUPLE_TYPE = Type.getType(Tuple.class);
+final static Method createTupleMethods[] = {Method.getMethod("clojure.lang.IPersistentVector create()"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object,Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object,Object,Object,Object)")
+};
+private static final Type OBJECT_TYPE;
+private static final Type KEYWORD_TYPE = Type.getType(Keyword.class);
+private static final Type VAR_TYPE = Type.getType(Var.class);
+private static final Type SYMBOL_TYPE = Type.getType(Symbol.class);
+//private static final Type NUM_TYPE = Type.getType(Num.class);
+private static final Type IFN_TYPE = Type.getType(IFn.class);
+private static final Type AFUNCTION_TYPE = Type.getType(AFunction.class);
+private static final Type RT_TYPE = Type.getType(RT.class);
+private static final Type NUMBERS_TYPE = Type.getType(Numbers.class);
+final static Type CLASS_TYPE = Type.getType(Class.class);
+final static Type NS_TYPE = Type.getType(Namespace.class);
+final static Type UTIL_TYPE = Type.getType(Util.class);
+final static Type REFLECTOR_TYPE = Type.getType(Reflector.class);
+final static Type THROWABLE_TYPE = Type.getType(Throwable.class);
+final static Type BOOLEAN_OBJECT_TYPE = Type.getType(Boolean.class);
+final static Type IPERSISTENTMAP_TYPE = Type.getType(IPersistentMap.class);
+final static Type IOBJ_TYPE = Type.getType(IObj.class);
+final static Type TUPLE_TYPE = Type.getType(Tuple.class);
+final static Method createTupleMethods[] = {Method.getMethod("clojure.lang.IPersistentVector create()"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object,Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object,Object,Object,Object)")
+};
+private static final Type KEYWORD_TYPE = Type.getType(Keyword.class);
+private static final Type VAR_TYPE = Type.getType(Var.class);
+private static final Type SYMBOL_TYPE = Type.getType(Symbol.class);
+//private static final Type NUM_TYPE = Type.getType(Num.class);
+private static final Type IFN_TYPE = Type.getType(IFn.class);
+private static final Type AFUNCTION_TYPE = Type.getType(AFunction.class);
+private static final Type RT_TYPE = Type.getType(RT.class);
+private static final Type NUMBERS_TYPE = Type.getType(Numbers.class);
+final static Type CLASS_TYPE = Type.getType(Class.class);
+final static Type NS_TYPE = Type.getType(Namespace.class);
+final static Type UTIL_TYPE = Type.getType(Util.class);
+final static Type REFLECTOR_TYPE = Type.getType(Reflector.class);
+final static Type THROWABLE_TYPE = Type.getType(Throwable.class);
+final static Type BOOLEAN_OBJECT_TYPE = Type.getType(Boolean.class);
+final static Type IPERSISTENTMAP_TYPE = Type.getType(IPersistentMap.class);
+final static Type IOBJ_TYPE = Type.getType(IObj.class);
+final static Type TUPLE_TYPE = Type.getType(Tuple.class);
+final static Method createTupleMethods[] = {Method.getMethod("clojure.lang.IPersistentVector create()"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object,Object,Object)"),
+        Method.getMethod("clojure.lang.IPersistentVector create(Object,Object,Object,Object,Object,Object)")
+};
+private static final int MAX_POSITIONAL_ARITY = 20;
+private static final Type OBJECT_TYPE;
 private static final Type KEYWORD_TYPE = Type.getType(Keyword.class);
 private static final Type VAR_TYPE = Type.getType(Var.class);
 private static final Type SYMBOL_TYPE = Type.getType(Symbol.class);
